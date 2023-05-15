@@ -1,0 +1,391 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A2B48;
+    width: 100%;
+}
+
+header nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+header nav a {
+    color: #1A2B48;
+}
+
+.correo {
+    margin-left: 20px;
+
+}
+
+.info_derecha {
+    color: white;
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+.info_derecha a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.secciones {
+    background-image: url("/IMAGENES/IMAGEN_INICIO.jpg");
+    background-size: cover;
+}
+
+.seccion_principal {
+    display: flex;
+}
+
+.imagen {
+    color: white;
+    height: 430px;
+}
+
+.seccion_principal ul {
+    list-style: none;
+    margin-left: 1px;
+    padding-bottom: 1px;
+}
+
+.seccion_principal ul il {
+    padding-left: 40px;
+}
+
+.seccion_principal ul .bolsa {
+    margin-left: 290Px;
+    padding-right: 30px;
+}
+
+.seccion_principal ul il.cuadro_naranja {
+    background-color: #FA5636;
+    padding-left: 0;
+    border: #FA5636 solid 5px;
+    border-radius: 5px;
+}
+
+.seccion_secundaria {
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+.secciones .seccion_secundaria h1 {
+    margin-bottom: 0;
+}
+
+.secciones .seccion_secundaria .mensaje_2 h4 {
+    padding-top: 0px;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.seccion_tercera {
+    margin-left: 120px;
+}
+
+.seccion_tercera ul il {
+    font-size: 20px;
+    background-color: #1A2B48;
+    border: #1A2B48 Solid 10px;
+    border-radius: 5px;
+}
+
+.seccion_tercera ul {
+    margin-bottom: 10px;
+}
+
+.seccion_cuarta {
+    margin-left: 118px;
+}
+
+.seccion_cuarta .subsecciones_cuarta {
+    align-items: center;
+    display: flex;
+}
+
+.seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div1 {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 45px;
+    display: flex;
+    width: 250px;
+    height: 90px;
+
+}
+
+.destino_grupo {
+    padding-left: 20px;
+}
+
+.destino {
+    color: #9e9e9e;
+}
+
+.pregunta_destino {
+    margin-left: 48px;
+    color: rgb(34, 95, 200);
+}
+
+.seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div2 {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 300px;
+    height: 90px;
+    border-left: black solid 1px;
+
+}
+
+.checkout,
+.checkin {
+    color: #9e9e9e;
+}
+
+.checkout {
+    margin-left: 36px;
+}
+
+.fecha {
+    color: rgb(34, 95, 200);
+}
+
+.seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div3 {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 220px;
+    height: 90px;
+    border-left: black solid 1px;
+}
+
+.guest {
+    color: #9e9e9e;
+    margin-right: 30px;
+}
+
+.numero_guest {
+    margin-left: 46px;
+    color: rgb(34, 95, 200);
+}
+
+.seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div4 {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 220px;
+    height: 90px;
+    border-left: black solid 1px;
+}
+
+.advance {
+    margin-left: 30px;
+    color: #9e9e9e;
+}
+
+.more {
+    margin-left: 45px;
+    color: rgb(34, 95, 200);
+}
+
+.seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div5 {
+    background-color: #5191FA;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 220px;
+    height: 90px;
+    border-left: black solid 1px;
+}
+
+.buscar {
+    margin-left: 43px;
+}
+
+.seccion_quinta {
+    display: flex;
+}
+
+.subsecciones_quinta_imagen1 {
+    background-image: url("/IMAGENES/IMAGEN1_S5.jpg");
+    width: 570px;
+    height: 400px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.subsecciones_quinta_div1 ul {
+    padding-top: 80px;
+    height: 200px;
+    color: white;
+}
+
+.cuadro_naranja_seccion5 {
+    background-color: #FA5636;
+    border: #FA5636 solid 5px;
+    border-radius: 5px;
+}
+
+.titulo_seccion5 {
+    margin-top: 100px;
+}
+
+.parrafo_seccion5 {
+    margin-top: 30px;
+}
+
+.subsecciones_quinta_imagen2 {
+    background-image: url("/IMAGENES/IMAGEN2_S5.jpg");
+    width: 270px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.subsecciones_quinta_div2 ul {
+    padding-top: 140px;
+    margin-right: 25px;
+    height: 200px;
+    color: white;
+}
+
+.subsecciones_quinta_imagen3 {
+    background-image: url("/IMAGENES/IMAGEN3_S5.jpg");
+    width: 270px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.subsecciones_quinta_div3 ul {
+    padding-top: 85px;
+    margin-right: 20px;
+    height: 200px;
+    color: white;
+}
+
+.top_destinos {
+    margin-left: 165px;
+    margin-top: 40px;
+}
+
+.seccion_sexta {
+    display: flex;
+}
+
+.imagenizquierda_s6 {
+    background-image: url(/IMAGENES/New_Jersey.jpg);
+    background-size: cover;
+    width: 370px;
+    height: 275px;
+    margin-left: 160px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.new_jersey h1 {
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.imagencentral_s6 {
+    background-image: url(/IMAGENES/San_Francisco.jpg);
+    background-size: cover;
+    width: 370px;
+    height: 275px;
+    margin-left: 55px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.san_francisco h1 {
+    margin-left: 90px;
+    margin-top: 140px;
+}
+
+.imagenderecha_s6 {
+    background-image: url(/IMAGENES/Virginia.jpg);
+    background-size: cover;
+    width: 370px;
+    height: 275px;
+    margin-left: 55px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.virginia h1 {
+    margin-left: 125px;
+    margin-top: 140px;
+}
+
+.seccion_septima {
+    display: flex;
+    margin-top: 20px;
+}
+
+.imagenizquierda_s7 {
+    background-image: url(/IMAGENES/California.jpg);
+    background-size: cover;
+    width: 370px;
+    height: 275px;
+    margin-left: 160px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.california h1 {
+    margin-left: 110px;
+    margin-top: 140px;
+}
+
+.imagencentral_s7 {
+    background-image: url(/IMAGENES/Los_Angeles.jpg);
+    background-size: cover;
+    width: 370px;
+    height: 275px;
+    margin-left: 55px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.los_angeles h1 {
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.imagenderecha_s7 {
+    background-image: url(/IMAGENES/Nevada.jpg);
+    background-size: cover;
+    width: 370px;
+    height: 275px;
+    margin-left: 55px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.nevada h1 {
+    margin-left: 135px;
+    margin-top: 140px;
+}
