@@ -40,6 +40,12 @@ header nav a {
     color: white;
 }
 
+#moneda {
+    background-color: #1A2B48;
+    border: none;
+    color: white;
+}
+
 .secciones {
     background-image: url("/IMAGENES/IMAGEN_INICIO.jpg");
     background-size: cover;
@@ -298,12 +304,11 @@ header nav a {
     margin-top: 15px;
     border-radius: 10px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.new_jersey h1 {
-    margin-left: 100px;
-    margin-top: 140px;
-}
 
 .imagencentral_s6 {
     background-image: url(/IMAGENES/San_Francisco.jpg);
@@ -314,11 +319,9 @@ header nav a {
     margin-top: 15px;
     border-radius: 10px;
     color: white;
-}
-
-.san_francisco h1 {
-    margin-left: 90px;
-    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagenderecha_s6 {
@@ -330,12 +333,11 @@ header nav a {
     margin-top: 15px;
     border-radius: 10px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.virginia h1 {
-    margin-left: 125px;
-    margin-top: 140px;
-}
 
 .seccion_septima {
     display: flex;
@@ -351,11 +353,9 @@ header nav a {
     margin-top: 15px;
     border-radius: 10px;
     color: white;
-}
-
-.california h1 {
-    margin-left: 110px;
-    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagencentral_s7 {
@@ -367,11 +367,9 @@ header nav a {
     margin-top: 15px;
     border-radius: 10px;
     color: white;
-}
-
-.los_angeles h1 {
-    margin-left: 100px;
-    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagenderecha_s7 {
@@ -383,9 +381,129 @@ header nav a {
     margin-top: 15px;
     border-radius: 10px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nevada h1 {
-    margin-left: 135px;
-    margin-top: 140px;
+.seccion_octava {
+    display: flex;
+    background-color: #d1dce5;
+    height: 180px;
+    margin-top: 30px;
+}
+
+.correo_logo {
+    margin-top: 18px;
+    margin-left: 250px;
+}
+
+.mensaje {
+    margin-top: 35px;
+}
+
+.your_email {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.cuadromail {
+    line-height: 55px;
+    height: 50px;
+    width: 350px;
+}
+
+.boton {
+    position: absolute;
+    color: white;
+    background-color: #5191FA;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.penultima_seccion {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.titulos_lineabaja p {
+    border-bottom: 1px solid grey;
+    width: 115px;
+}
+
+.margen_izquierdo_azul {
+    border-left: 3px solid #5191FA;
+    padding-left: 15px;
+}
+
+.div1_izquierda h3 {
+    margin-top: 3px;
+}
+
+.div1_izquierda p {
+    margin-bottom: 0px;
+}
+
+.follow_us a {
+    color: white;
+}
+
+.div_centro {
+    margin-left: 50px;
+}
+
+.subdiv_centro {
+    margin-bottom: 20px;
+}
+
+.subdiv_centro a {
+    color: black;
+    text-decoration: none;
+}
+
+.subdiv_derecha {
+    margin-bottom: 20px;
+}
+
+.subdiv_derecha a {
+    color: black;
+    text-decoration: none;
+}
+
+#moneda_2 {
+    width: 120px;
+}
+
+.ultima_seccion {
+    display: flex;
+    margin-top: 30px;
+    border-top: .5px solid grey;
+}
+
+.div_derecha {
+    margin-left: 50px;
+}
+
+.subdiv_derecha {
+    margin-bottom: 20px;
+}
+
+.ultima_seccion ul {
+    display: flex;
+    align-items: center
+}
+
+.copyright {
+    margin-left: 100px;
+    display: flex;
+}
+
+.logos_paypal {
+    margin-left: 700px;
 }
