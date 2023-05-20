@@ -1,9 +1,11 @@
+/* Estilos del body*/
 body {
     margin: 0 auto;
     padding: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Estilos del Header*/
 header {
     display: flex;
     justify-content: space-between;
@@ -22,6 +24,7 @@ header nav a {
     color: #1A2B48;
 }
 
+/* Estilos del Header (Informacion de la derecha de la barra azul marino)*/
 .correo {
     margin-left: 20px;
 
@@ -40,12 +43,20 @@ header nav a {
     color: white;
 }
 
+.info_derecha a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* Estilos del menu desplegable del tipo de moneda*/
 #moneda {
     background-color: #1A2B48;
     border: none;
     color: white;
 }
 
+/* Estilos de la primer seccion con la imagen principal*/
 .secciones {
     background-image: url("/IMAGENES/IMAGEN_INICIO.jpg");
     background-size: cover;
@@ -70,6 +81,11 @@ header nav a {
     padding-left: 40px;
 }
 
+/*Animacion de la informacion del apartado de la seccion principal*/
+.seccion_principal ul il:hover {
+    color: #5191FA;
+}
+
 .seccion_principal ul .bolsa {
     margin-left: 290Px;
     padding-right: 30px;
@@ -82,6 +98,7 @@ header nav a {
     border-radius: 5px;
 }
 
+/* Estilos del apartado del cuadro de Hotel,Tour, Activity, Etc...*/
 .seccion_secundaria {
     margin-left: 150px;
     font-size: 25px;
@@ -101,7 +118,14 @@ header nav a {
     margin-left: 120px;
 }
 
-.seccion_tercera ul il {
+.hotel_s3 {
+    font-size: 20px;
+    background-color: #5191FA;
+    border: #5191FA Solid 10px;
+    border-radius: 5px;
+}
+
+.recuadros_azulesmarino {
     font-size: 20px;
     background-color: #1A2B48;
     border: #1A2B48 Solid 10px;
@@ -112,6 +136,15 @@ header nav a {
     margin-bottom: 10px;
 }
 
+/* Animacion de los cuadros de Hotel, Tour, Activity, Rental, Etc...*/
+.seccion_tercera ul il:hover {
+    font-size: 20px;
+    background-color: #5191FA;
+    border: #5191FA Solid 10px;
+    border-radius: 5px;
+}
+
+/* Estilos de cuadros de Destination, Check In, Guest, Etc...*/
 .seccion_cuarta {
     margin-left: 118px;
 }
@@ -121,6 +154,7 @@ header nav a {
     display: flex;
 }
 
+/* Estilos del cuadro Destination*/
 .seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div1 {
     background-color: white;
     align-items: center;
@@ -145,6 +179,7 @@ header nav a {
     color: rgb(34, 95, 200);
 }
 
+/* Estilos del cuadro Check In*/
 .seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div2 {
     background-color: white;
     align-items: center;
@@ -169,6 +204,7 @@ header nav a {
     color: rgb(34, 95, 200);
 }
 
+/* Estilos del cuadro Guest*/
 .seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div3 {
     background-color: white;
     align-items: center;
@@ -189,6 +225,7 @@ header nav a {
     color: rgb(34, 95, 200);
 }
 
+/* Estilos del cuadro Advance*/
 .seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div4 {
     background-color: white;
     align-items: center;
@@ -209,6 +246,7 @@ header nav a {
     color: rgb(34, 95, 200);
 }
 
+/* Estilos del cuadro Search (Cuadro Azul)*/
 .seccion_cuarta .subsecciones_cuarta .subsecciones_cuarta_div5 {
     background-color: #5191FA;
     align-items: center;
@@ -223,22 +261,30 @@ header nav a {
     margin-left: 43px;
 }
 
+/* Estilos de las secciones de cuadros con informacion*/
 .seccion_quinta {
     display: flex;
 }
 
+/* Estilos del cuadro con imagen*/
 .subsecciones_quinta_imagen1 {
     background-image: url("/IMAGENES/IMAGEN1_S5.jpg");
     width: 570px;
     height: 400px;
     margin-left: 160px;
     margin-top: 30px;
+    transition: all 500ms ease;
 }
 
 .subsecciones_quinta_div1 ul {
     padding-top: 80px;
     height: 200px;
     color: white;
+}
+
+/*Animacion del cuadro con imagen*/
+.subsecciones_quinta_imagen1:hover {
+    transform: scale(1.1);
 }
 
 .cuadro_naranja_seccion5 {
@@ -255,12 +301,19 @@ header nav a {
     margin-top: 30px;
 }
 
+/* Estilos del cuadro de informacion de color azul*/
 .subsecciones_quinta_imagen2 {
     background-image: url("/IMAGENES/IMAGEN2_S5.jpg");
     width: 270px;
     height: 400px;
     margin-left: 50px;
     margin-top: 30px;
+    transition: all 500ms ease;
+}
+
+/* Animacion del cuadro de informacion de color azul*/
+.subsecciones_quinta_imagen2:hover {
+    transform: scale(1.1);
 }
 
 .subsecciones_quinta_div2 ul {
@@ -270,13 +323,19 @@ header nav a {
     color: white;
 }
 
+/* Estilos del cuadro de informacion de color amarillo*/
 .subsecciones_quinta_imagen3 {
     background-image: url("/IMAGENES/IMAGEN3_S5.jpg");
     width: 270px;
     height: 400px;
     margin-left: 50px;
     margin-top: 30px;
+    transition: all 500ms ease;
+}
 
+/* Animacion del cuadro de informacion de color azul*/
+.subsecciones_quinta_imagen3:hover {
+    transform: scale(1.1);
 }
 
 .subsecciones_quinta_div3 ul {
@@ -291,10 +350,12 @@ header nav a {
     margin-top: 40px;
 }
 
+/* Estilos de la seccion de Top Destinations (3 fotos de arriba)*/
 .seccion_sexta {
     display: flex;
 }
 
+/*Estilos de New Jersey*/
 .imagenizquierda_s6 {
     background-image: url(/IMAGENES/New_Jersey.jpg);
     background-size: cover;
@@ -307,9 +368,14 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 500ms ease;
 }
 
+.imagenizquierda_s6:hover {
+    transform: scale(1.1);
+}
 
+/*Estilos de San Francisco*/
 .imagencentral_s6 {
     background-image: url(/IMAGENES/San_Francisco.jpg);
     background-size: cover;
@@ -322,8 +388,14 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 500ms ease;
 }
 
+.imagencentral_s6:hover {
+    transform: scale(1.1);
+}
+
+/*Estilos de Virginia*/
 .imagenderecha_s6 {
     background-image: url(/IMAGENES/Virginia.jpg);
     background-size: cover;
@@ -336,14 +408,20 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 500ms ease;
 }
 
+.imagenderecha_s6:hover {
+    transform: scale(1.1);
+}
 
+/* Estilos de la seccion de Top Destinations (3 fotos de abajo)*/
 .seccion_septima {
     display: flex;
     margin-top: 20px;
 }
 
+/*Estilos de California*/
 .imagenizquierda_s7 {
     background-image: url(/IMAGENES/California.jpg);
     background-size: cover;
@@ -356,8 +434,14 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 500ms ease;
 }
 
+.imagenizquierda_s7:hover {
+    transform: scale(1.1);
+}
+
+/*Estilos de Los Angeles*/
 .imagencentral_s7 {
     background-image: url(/IMAGENES/Los_Angeles.jpg);
     background-size: cover;
@@ -370,8 +454,14 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 500ms ease;
 }
 
+.imagencentral_s7:hover {
+    transform: scale(1.1);
+}
+
+/*Estilos de Nevada*/
 .imagenderecha_s7 {
     background-image: url(/IMAGENES/Nevada.jpg);
     background-size: cover;
@@ -384,8 +474,14 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 500ms ease;
 }
 
+.imagenderecha_s7:hover {
+    transform: scale(1.1);
+}
+
+/*Estilos de la seccion de correo*/
 .seccion_octava {
     display: flex;
     background-color: #d1dce5;
@@ -426,6 +522,7 @@ header nav a {
     padding-right: 25px;
 }
 
+/*Footer - Seccion de Need Help?, Company, Etc...*/
 .penultima_seccion {
     display: flex;
     margin-top: 30px;
@@ -494,6 +591,7 @@ header nav a {
     margin-bottom: 20px;
 }
 
+/*Footer - Seccion final con mi nombre y logos de paypal, visa y mastercard*/
 .ultima_seccion ul {
     display: flex;
     align-items: center
@@ -504,6 +602,6 @@ header nav a {
     display: flex;
 }
 
-.logos_paypal {
+.logos_tipospago {
     margin-left: 700px;
 }
